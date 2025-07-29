@@ -73,7 +73,7 @@ const MarriageMuhurtham = () => {
           <p
             className="mt-6 text-gray-700 max-w-3xl mx-auto"
             dangerouslySetInnerHTML={{
-              __html: content.marriageMuhurtham?.description || "The Marriage Muhurtham is the main wedding ceremony."
+              __html: content.marriageMuhurtham?.ceremonyDetails.paragraph1 || "The Marriage Muhurtham is the main wedding ceremony."
             }}
           />
         </motion.div>
@@ -99,7 +99,7 @@ const MarriageMuhurtham = () => {
           >
             <Clock className="text-red-600 mr-2" size={20} />
             <span className="text-red-800 font-medium">
-              {content.marriageMuhurtham?.time || "08:36 PM"}
+              {content.marriageMuhurtham?.time || "04:14 AM"}
             </span>
           </motion.div>
         </motion.div>
@@ -109,12 +109,12 @@ const MarriageMuhurtham = () => {
             <h3 className="text-2xl font-script text-red-700 mb-6">
               {content.marriageMuhurtham?.subheadings.sacredCeremony || "The Sacred Ceremony"}
             </h3>
-            <p
+            {/* <p
               className="text-gray-700 mb-6 leading-relaxed"
               dangerouslySetInnerHTML={{
                 __html: content.marriageMuhurtham?.ceremonyDetails.paragraph1 || "The ceremony unites the couple."
               }}
-            />
+            /> */}
             <p
               className="text-gray-700 leading-relaxed"
               dangerouslySetInnerHTML={{

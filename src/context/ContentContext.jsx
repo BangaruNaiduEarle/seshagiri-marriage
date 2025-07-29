@@ -158,7 +158,7 @@ const content = {
         }
       ],
       date: "July 31, 2025",
-      time: "04:14 AM (Earle Morning 1st Aug)",
+      time: "Early Hours 1st Aug 04:14 AM",
       imageAlt: "Marriage ceremony",
       subheadings: {
         sacredCeremony: "The Sacred Ceremony",
