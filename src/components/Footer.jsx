@@ -17,7 +17,7 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <Heart className="h-6 w-6 text-rose-300 mr-2" fill="#FDA4AF" />
-            <span className="text-2xl font-semibold">Seshagiri Rao & Chandini</span>
+            <span className="text-xl md:text-2xl font-semibold">Seshagiri Rao & Chandini</span>
           </motion.div>
           
           <motion.p 
@@ -99,7 +99,7 @@ const Footer = () => {
         >
           <p>© {currentYear} Seshagiri Rao & Chandini Wedding. All rights reserved.</p>
           <p className="mt-1">Made with <Heart className="inline-block h-3 w-3" fill="#FDA4AF" /> for our special day</p>
-          <p className="mt-2">
+          {/* <p className="mt-2">
             Developed by #Banagru Naidu | Contact:{' '}
             <a 
               href="tel:+919581160835" 
@@ -107,7 +107,7 @@ const Footer = () => {
             >
               +91- 9581160835
             </a>
-          </p>
+          </p> */}
         </motion.div>
       </div>
     </footer>
